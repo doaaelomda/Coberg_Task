@@ -1,0 +1,154 @@
+.footer {
+  background-color: #F8F8F8;
+  width: 100%;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 50px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer-left >img{
+  position: relative;
+    right: 30px;
+    padding-bottom: 10px;
+}
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+}
+
+.footer .about {
+  line-height: 20px;
+  color: #3D3D3D;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background: rgba(229, 229, 229, 0.38);
+  border-radius: 6px;
+  font-size: 20px;
+  color: #3D3D3D;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.footer .icons a img{
+  width: 70%;
+}
+
+
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+}
+
+
+
+.footer  p {
+  display: inline-block;
+
+  vertical-align: middle;
+  margin: 0;
+
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+color: #4F4F4F;
+
+
+}
+
+.footer  span {
+  display: block;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #4F4F4F;
+padding-bottom: 1rem;
+
+
+}
+
+.footer .footer-center p a {
+  color: #0099ff;
+  text-decoration: none;
+}
+
+
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+}
+
+
+.footer .menu {
+  color: #3D3D3D;
+  padding: 10;
+  position: relative;
+ top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .menu a {
+  line-height: 1.8;
+  text-decoration: none;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #000000;
+
+
+}
+
+.footer .menu a:hover {
+  color: #0099ff;
+}
+
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer .footer-center,.footer .about,.footer .menu{
+    display: none;
+  }
+  .footer-left >img{
+      right:0 !important;
+  }
+}
