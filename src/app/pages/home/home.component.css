@@ -163,8 +163,8 @@ h5 {
   }
 
   .text-home {
-    position: absolute;
-    top: 15rem;
+    position: relative;
+    bottom: 7rem;
     right: 0 !important;
     padding: 15px !important;
     width: 100%;
